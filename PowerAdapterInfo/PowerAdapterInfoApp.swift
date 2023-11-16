@@ -9,9 +9,18 @@ import SwiftUI
 
 @main
 struct PowerAdapterInfoApp: App {
+    @StateObject private var powerSourceInfo = PowerSourceInfo()
+    
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        MenuBarExtra {
+            MenuView(powerSourceInfo: powerSourceInfo)
+        } label: {
+            Image(systemName: powerSourceInfo.acConnected ? "bolt.fill" : "bolt.slash.fill")
+            Text(" \(powerSourceInfo.wattage)W")
         }
+        /*
+        Settings {
+            SettingsView()
+        }*/
     }
 }

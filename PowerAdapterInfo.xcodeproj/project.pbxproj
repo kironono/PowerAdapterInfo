@@ -14,6 +14,9 @@
 		B706F9D42B04EF7100456F1F /* PowerAdapterInfoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B706F9D32B04EF7100456F1F /* PowerAdapterInfoTests.swift */; };
 		B706F9DE2B04EF7100456F1F /* PowerAdapterInfoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B706F9DD2B04EF7100456F1F /* PowerAdapterInfoUITests.swift */; };
 		B706F9E02B04EF7100456F1F /* PowerAdapterInfoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B706F9DF2B04EF7100456F1F /* PowerAdapterInfoUITestsLaunchTests.swift */; };
+		B706F9ED2B04F0AE00456F1F /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B706F9EC2B04F0AE00456F1F /* MenuView.swift */; };
+		B706F9EF2B04F43500456F1F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B706F9EE2B04F43500456F1F /* SettingsView.swift */; };
+		B706F9F12B04F9DE00456F1F /* PowerSourceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B706F9F02B04F9DE00456F1F /* PowerSourceInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		B706F9D92B04EF7100456F1F /* PowerAdapterInfoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PowerAdapterInfoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B706F9DD2B04EF7100456F1F /* PowerAdapterInfoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerAdapterInfoUITests.swift; sourceTree = "<group>"; };
 		B706F9DF2B04EF7100456F1F /* PowerAdapterInfoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerAdapterInfoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B706F9EC2B04F0AE00456F1F /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		B706F9EE2B04F43500456F1F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B706F9F02B04F9DE00456F1F /* PowerSourceInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerSourceInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				B706F9C52B04EF7100456F1F /* Assets.xcassets */,
 				B706F9CA2B04EF7100456F1F /* PowerAdapterInfo.entitlements */,
 				B706F9C72B04EF7100456F1F /* Preview Content */,
+				B706F9EC2B04F0AE00456F1F /* MenuView.swift */,
+				B706F9EE2B04F43500456F1F /* SettingsView.swift */,
+				B706F9F02B04F9DE00456F1F /* PowerSourceInfo.swift */,
 			);
 			path = PowerAdapterInfo;
 			sourceTree = "<group>";
@@ -259,7 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B706F9F12B04F9DE00456F1F /* PowerSourceInfo.swift in Sources */,
 				B706F9C42B04EF6F00456F1F /* ContentView.swift in Sources */,
+				B706F9EF2B04F43500456F1F /* SettingsView.swift in Sources */,
+				B706F9ED2B04F0AE00456F1F /* MenuView.swift in Sources */,
 				B706F9C22B04EF6F00456F1F /* PowerAdapterInfoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
