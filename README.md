@@ -1,6 +1,17 @@
-# `PowerAdapterInfo`
+<div align="center">
 
-AC adapter status monitoring tool for macOS.
+![Logo](Resources/power_adapter_info_logo.png)
+
+# PowerAdapterInfo
+
+[license]: https://img.shields.io/github/license/kironono/PowerAdapterInfo?style=for-the-badge&logo=opensourcehardware&logoColor=C0CAF5&label=License
+
+[![license]](https://github.com/kironono/PowerAdapterInfo/blob/main/LICENSE)
+
+> AC adapter status monitoring tool for macOS.
+
+</div>
+
 
 ---
 
